@@ -1,0 +1,232 @@
+<html>
+<body>
+    <h3>Customer Churn Prediction Form</h3>
+ 
+<div>
+  <form action="/result" method="POST">
+    <label for="gender">Gender</label>
+    <select id="gender" name="Gender">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+    </select>
+    <br>
+    
+    <label for="age">Age</label>
+    <input type="text" id="age" name="Age"> Integer: [0-99]
+    <br>
+    
+    <label for="married">Married</label>
+    <select id="married" name="Married">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="dep">Number of Dependents</label>
+    <select id="dep" name="Number of Dependents">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <br>
+    
+    <label for="ref">Number of Referrals</label>
+    <select id="ref" name="Number of Referrals">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+    </select>
+    <br>
+    
+    <label for="tenure">Tenure in Months</label>
+    <input type="text" id="tenure" name="Tenure in Months"> Integer: [0-1000]
+    <br>
+    
+    <label for="offer">Offer</label>
+    <select id="offer" name="Offer">
+      <option value="No Offer">No Offer</option>
+      <option value="Offer A">Offer A</option>
+      <option value="Offer B">Offer B</option>
+      <option value="Offer C">Offer C</option>
+      <option value="Offer D">Offer D</option>
+      <option value="Offer E">Offer E</option>
+    </select>
+    <br>
+    
+    <label for="phone_service">Phone Service</label>
+    <select id="phone_service" name="Phone Service">
+        <option value="No">No</option>
+      <option value="Yes">Yes</option>
+    </select>
+    <br>
+    
+     <label for="avg_mon_dist">Avg Monthly Long Distance Charges </label>
+    <input type="text" id="avg_mon_dist" name="Avg Monthly Long Distance Charges"> Float: [0-150]
+    <br>
+    
+    <label for="multiple_lines">Multiple Lines</label>
+    <select id="multiple_lines" name="Multiple Lines">
+      <option value="No Phone Service">No Phone Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="internet_service">Internet Service</label>
+    <select id="internet_service" name="Internet Service">
+      <option value="No">No</option>    
+      <option value="Yes">Yes</option>
+    </select>
+    <br>
+    
+    <label for="internet_type">Internet Type</label>
+    <select id="internet_type" name="Internet Type">
+      <option value="No Internet Service">No Internet Service</option>    
+      <option value="Cable">Cable</option>
+      <option value="Fiber Optic">Fiber Optic</option>
+      <option value="DSL">DSL</option>
+    </select>
+    <br>
+    
+    <label for="avg_mon_gb_download">Avg Monthly Long GB Download </label>
+    <input type="text" id="avg_mon_gb_download" name="Avg Monthly Long GB Download"> Float: [0-100]
+    <br>
+    
+    <label for="online_security">Online Security</label>
+    <select id="online_security" name="Online Security">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="online_backup">Online Backup</label>
+    <select id="online_backup" name="Online Backup">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="device_protection_plan">Device Protection Plan</label>
+    <select id="device_protection_plan" name="Device Protection Plan">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="tech_support">Premium Tech Support</label>
+    <select id="tech_support" name="Premium Tech Support">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+
+    <label for="streaming_tv">Streaming TV</label>
+    <select id="streaming_tv" name="Streaming TV">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="streaming_movies">Streaming Movies</label>
+    <select id="streaming_movies" name="Streaming Movies">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="streaming_music">Streaming Music</label>
+    <select id="streaming_music" name="Streaming Music">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="unlimited_data">Unlimited Data</label>
+    <select id="unlimited_data" name="Unlimited Data">
+      <option value="No Internet Service">No Internet Service</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="contract">Contract</label>
+    <select id="contract" name="Contract">
+      <option value="One Year">One Year</option>
+      <option value="Month-to-Month">Month-to-Month</option>
+      <option value="Two Year">Two Year</option>
+    </select>
+    <br>
+    
+    <label for="paperless_billing">Paperless Billing</label>
+    <select id="paperless_billing" name="Paperless Billing">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    
+    <label for="payment_method">Payment Method</label>
+    <select id="payment_method" name="Payment Method">
+      <option value="Credit Card">Credit Card</option>
+      <option value="Bank Withdrawal">Bank Withdrawal</option>
+      <option value="Mailed Check">Mailed Check</option>
+    </select>
+    <br>
+    
+    <label for="monthly_charge">Monthly Charge </label>
+    <input type="text" id="monthly_charge" name="Monthly Charge"> Float: [0-120]
+    <br>
+    
+    <label for="total_charges">Total Charges </label>
+    <input type="text" id="total_charges" name="Total Charges"> Float: [0-10000]
+    <br>
+    
+    <label for="total_refunds">Total Refunds </label>
+    <input type="text" id="total_refunds" name="Total Refunds"> Float: [0-100]
+    <br>
+    
+    <label for="total_extra_data_charges">Total Extra Data Charges </label>
+    <input type="text" id="total_extra_data_charges" name="Total Extra Data Charges"> Float: [0-200]
+    <br>
+    
+    <label for="total_long_distance_charges">Total Long Distance Charges </label>
+    <input type="text" id="total_long_distance_charges" name="Total Long Distance Charges"> Float: [0-3700]
+    <br>
+    
+    <label for="total_revenue">Total Revenue </label>
+    <input type="text" id="total_revenue" name="Total Revenue"> Float: [0-15000]
+    <br>
+    
+    <br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
