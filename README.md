@@ -13,10 +13,17 @@ This repository contains following projects:
        * contains: Flask application source code and Dockerfile
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+  2. **Customer Segmentation**
+     
+     2.1 Clustering 
+       * algorithms: KMeans, Gaussian Mixture, Agglomerative Hierarchy, DBSCAN
+
+---------------------------------------------------------------------------------------------------------------------------
     
-   2. **Car Price Estimation**
+   3. **Car Price Estimation**
 
-      2.1 Scraping  
+      3.1 Scraping  
 
-      2.2 Data cleaning 
+      3.2 Data cleaning 
         * algorithm: CatBoostRegressor
